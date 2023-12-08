@@ -1,0 +1,116 @@
+﻿
+@model List<Model.EF.tb_SinhVien>
+
+<h1 style="text-align: center; ">DANH SÁCH SINH VIÊN ĐĂNG KÝ CẮM TRẠI</h1>
+
+
+<!-- music-box  -->
+<div class="music-box" ">
+    <h4 style="text-align:center">Khoa Công nghệ thông tin</h4>
+    <div class="container">
+        <h5>Lớp: 20CT1</h5>
+        <div class="row">
+
+            @foreach (var item in Model)
+            {
+
+                if (@item.MaLop == "20CT1")
+                {
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="for-box">
+                            <i>
+
+
+                                <img src="~/Content/images/avartar.jpg" />
+                            </i>
+
+                            <h3>@item.Ho @item.Ten</h3>
+                            <p>Mssv: @item.Mssv </p>
+                        </div>
+                    </div>
+                }
+            }
+
+        </div>
+    </div>
+
+    <div class="container">
+        <h5>Lớp: 20CT2</h5>
+        <div class="row">
+
+            @foreach (var item in Model)
+            {
+
+                if (@item.MaLop == "20CT2")
+                {
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="for-box">
+                            <i>
+
+
+                                <img src="@item.Image" />
+                            </i>
+
+                            <h3>@item.Ho @item.Ten</h3>
+                            <p>Mssv: @item.Mssv </p>
+                        </div>
+                    </div>
+                }
+            }
+
+        </div>
+    </div>
+
+    <div class="container">
+        <h5>Lớp: 20CT3</h5>
+        <div class="row">
+
+            @foreach (var item in Model)
+            {
+
+                if (@item.MaLop == "20CT3")
+                {
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="for-box">
+                            <i>
+
+
+                                <img src="@item.Image" />
+                            </i>
+
+                            <h3>@item.Ho @item.Ten</h3>
+                            <p>Mssv: @item.Mssv </p>
+                        </div>
+                    </div>
+                }
+            }
+
+        </div>
+    </div>
+    <div class="container">
+        <h5>Lớp</h5>
+        <div class="row">
+
+            @foreach (var item in Model)
+            {
+
+              
+                
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="for-box">
+                            <i>
+
+
+                                <img src="@item.Image" />
+                            </i>
+
+                            <h3>@item.Ho @item.Ten</h3>
+                            <p>Mssv: @item.Mssv </p>
+                        </div>
+                    </div>
+                
+            }
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,6 @@
+D:\congngheweb\CamTrai\DAO\bin\Debug\DAO.dll
+D:\congngheweb\CamTrai\DAO\bin\Debug\DAO.pdb
+D:\congngheweb\CamTrai\DAO\obj\Debug\DAO.csproj.AssemblyReference.cache
+D:\congngheweb\CamTrai\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+D:\congngheweb\CamTrai\DAO\obj\Debug\DAO.dll
+D:\congngheweb\CamTrai\DAO\obj\Debug\DAO.pdb
